@@ -1,0 +1,58 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 250px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+.container-conversion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.input {
+  font-size: 3rem;
+  color: #fff;
+}
+.mex,
+.usa {
+  width: 15rem;
+  height: 2rem;
+  outline: none;
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  color: #fff;
+}
